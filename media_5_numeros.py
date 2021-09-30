@@ -1,0 +1,10 @@
+numeros = [0, 0, 0, 0, 0]
+numeros[0] = int(input('Digite primeiro numero: '))
+numeros[1] = int(input('Digite segundo numero: '))
+numeros[2] = int(input('Digite terceiro numero: '))
+numeros[3] = int(input('Digite quarto numero: '))
+numeros[4] = int(input('Digite quinto numero: '))
+print(max(numeros))
+print(min(numeros))
+print((numeros[0]+numeros[1]+numeros[2]+numeros[3]+numeros[4])/5)
+#(numpy)
